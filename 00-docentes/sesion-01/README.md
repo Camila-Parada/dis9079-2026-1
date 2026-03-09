@@ -33,10 +33,28 @@ OpenSoundControl
 
 TouchOSC
 
-Claudse Shannon
+Claude Shannon
 
 MQTT
 
 Flutter
 
-## Enlaces
+## Enlaces vistos en clases
+
+* <https://en.wikipedia.org/wiki/Muriel_Cooper>
+* <https://itp.nyu.edu/itp/>
+* <https://www.media.mit.edu/>
+* <https://p5js.org/>
+* <https://reas.com/>
+* <https://github.com/processing/p5.js-getting-started-es>
+* <https://en.wikipedia.org/wiki/John_Maeda>
+* <https://www.risd.edu/>
+* <https://flutter.dev/>
+* <https://en.wikipedia.org/wiki/MQTT>
+* <https://en.wikipedia.org/wiki/Open_Sound_Control>
+* <https://get-lauren.net/>
+* <https://en.wikipedia.org/wiki/Arduino>
+* <https://en.wikipedia.org/wiki/Physical_computing>
+* <https://en.wikipedia.org/wiki/Hernando_Barrag%C3%A1n>
+* <https://mcielectronics.cl/shop/product/74358/>
+* <https://kylemcdonald.net/>
