@@ -20,7 +20,13 @@ lunes 16 marzo 2026
 
 - las herramientas que utilizaremos serán opensource
 
-- instalar biblioteca de arduino mqtt, arduino r4 y arduinographics
+- instalar biblioteca de arduino mqtt, arduino r4 (ya la tenía) y arduinographics. También actualicé arduino a 2.3.8
 
 - cuando cambian el primer numero de 1.2.3 cambian muchas cosas y se pueden romper también, si cambian el segundo 1.3.3 cambian cosas de adentro pero lo principal se mantiene
+
+- instalaremos visualstudiocode pero más adelante
+
+- homebrew nos ayuda a instalar cosas de manera más fácil, ejemplo si quiero descargar mosquitto, introduzco el nombre teniendo ya homebrew y lo busca y lo instala todo solo, soluciona todo
+
+- 
 
