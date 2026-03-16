@@ -14,17 +14,18 @@
 // con nombre pantalla
 ArduinoLEDMatrix pantalla;
 
-void setup() {
+void setup()
+{
 
   // iniciar puerto serial
   Serial.begin(115200);
 
   // inicializar pantalla
   pantalla.begin();
-
 }
 
-void loop() {
+void loop()
+{
 
   // definir nuevo dibujo
   pantalla.beginDraw();
@@ -36,8 +37,8 @@ void loop() {
   pantalla.textScrollSpeed(100);
 
   // definir texto
-  const char texto[] = "    diseno udp dis9704 interacciones inalambricas    ";
-  
+  const char texto[] = "    diseno udp dis9079 interacciones inalambricas    ";
+
   // definir tipo
   pantalla.textFont(Font_5x7);
 
