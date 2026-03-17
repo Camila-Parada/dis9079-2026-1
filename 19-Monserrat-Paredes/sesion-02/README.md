@@ -34,9 +34,9 @@ Software: Editor, donde corre la placa
 
 Lenguaje de programación: Dialecto del lenguaje C++
 
-setup(): Inicio, estado inicial y configurar entradas y salidas
+Setup(): Inicio, estado inicial y configurar entradas y salidas
 
-loop(): Bucle, Repetir infinito
+Loop(): Bucle, Repetir infinito
 
 Configuración: Instrucciones
 
