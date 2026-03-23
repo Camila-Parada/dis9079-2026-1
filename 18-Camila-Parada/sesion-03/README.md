@@ -1,5 +1,5 @@
 
-# ⋆⭒˚.⋆ Github, Discord, VS code & Arduino ⋆.˚⭒⋆
+# ⋆⭒˚.⋆ Raspberry Pi y previa a la solemne ⋆.˚⭒⋆
 
 Lunes 23 de Marzo 2026
 
