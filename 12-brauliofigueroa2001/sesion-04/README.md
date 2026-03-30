@@ -76,6 +76,12 @@ corrección del error
 
 - ahora abrirán el puerto 2390 para UDP
 
+- utilizaron un código que nos permite prender y apagar el led cuando nos conectamos a la red wifi sin internet "dis9079"
+
+- cuando nos conectamos, ingresamos la ip en el navegador y se desplegará una página que dice "click here to turn on led" y "click here to turn off led"
+
+- 
+
   
 
   
