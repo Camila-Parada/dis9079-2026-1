@@ -10,3 +10,8 @@ Ya no tenemos que tener una IP distinta cada uno, sino que será siempre la mism
 
 **sudo:** Super usuario hacer _**(no usar)**_
 
+## Arduino
+
+Modificar desde linea #51 con nuestrso grupos.
+
+Loop: Enviar mensaje y que dirá
