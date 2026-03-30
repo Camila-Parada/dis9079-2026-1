@@ -32,4 +32,18 @@ lunes 30 marzo 2026
 
 - sudormrf enter, con esto destruyo cualquier computador?? wtf no lo hagan
 
-- t
+CÓDIGO EN ARDUINO
+
+- wificlient wificlient; crea una estructura computacional que es capaz de conectarse a wifi
+
+- mqttclient mqfttClient (wifiClient); significa q es una especie de auto que anda sobre este wifi
+
+- const char broker [] = "192.168.0.100"; es la ip de la raspberrypi
+
+- int port = 1883; es el puerto que nos asigna generalmente el computador para comunicaciones mqtt porque los otros puertos del pc hacen otras cosas
+
+- const char topic [], cualquier persona que envía mensajes en mqtt tiene que mandarlo en cierto topic, el que envía y el que recibe deben tener el mismo topic
+
+- mqttClient.setUsernamePassword (mqttID,mqttPass); aquí va la ID y la password
+
+- 
