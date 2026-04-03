@@ -2,34 +2,63 @@
 
 lunes 23 marzo 2026
 
-**Raspberry Pi** -> Computador > a utilizar en S1 y S2
+## Raspberry Pi
 
-PC-> Personal Computer
+Es un mini computador
 
-Placas -> Raspberry Pi [VERDE] / Arduino [AZUL]  Generalmente!!
+Puede correr sistema operativo (como un PC)
 
-Citar uso de IA cuando corresponda
+Se usará en S1 y S2
+
+
+**PC (Personal Computer)**
+
+Computador normal
+
+
+## Placas
+
+Raspberry Pi -> más “computador” (más completo)
+
+Arduino -> más simple, para controlar cosas específicas
+
+(Generalmente: Pi = verde / Arduino = azul)
+
+
+
+***Citar uso de IA cuando corresponda***
+
+
 
 **Monty Python**
 
-Palabras adaptadas a la computación
+Referencia cultural
 
-**Python** -> Lenguaje computación
 
-Micro python
+## Lenguajes / programación
 
-**C++**
+Python → lenguaje fácil y muy usado
 
-Versión -> Pico 2
+MicroPython → versión de Python para microcontroladores
 
-Versión más reciente
+C++ → más complejo, pero más control sobre hardware
 
-SPI -> Conectar micro controlador a pantalla -> 3 cables
 
-I2C -> 2 Cables
+**Versiones**
 
-Stdio -> Standar Input Output
+Pico 2 → versión más nueva (más potente)
 
-SDK -> Kit de desarrollo de software
 
-. -> distingue nombre y extensión
+## Conexiones
+
+SPI -> conecta cosas como pantallas (usa varios cables, rápido)
+I2C -> usa menos cables (2 principales), más simple
+
+
+**Conceptos básicos**
+
+stdio -> entrada y salida de datos (input/output)
+SDK -> herramientas para programar (kit de desarrollo)
+
+
+***Para Archivos -> El “.” separa nombre + extensión (ej: programa.py)***
