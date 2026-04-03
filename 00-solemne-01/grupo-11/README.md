@@ -13,6 +13,14 @@
 
 ### código para enviar
 
+```cpp
+// rellenar
+```
+
 ### código para recibir
+
+```cpp
+// rellenar
+```
 
 ## bibliografía
