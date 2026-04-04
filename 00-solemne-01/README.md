@@ -115,3 +115,7 @@ para instalarla en nuestro software `Arduino IDE`, debemos seguir los siguientes
 yo pagué por el plan anual como parte de mi labor de enseñanza del curso, y les compartiré mis claves para que puedan usar mi cuenta durante el semestre.
 
 las publicaré en discord, en el canal de `#solemne-01`, para que puedan acceder a ellas y usarlas durante el semestre. por favor, usen estas claves con responsabilidad y no las compartan con nadie fuera del curso, ni tampoco las suban a github.
+
+## sobre las primeras pruebas de enlazar con la nube
+
+
