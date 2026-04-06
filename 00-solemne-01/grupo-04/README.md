@@ -21,6 +21,8 @@ nos estuvo saliendo solo puntitos durante toda la clase, tratamos con 3 internne
 pero luego cambiamos la contraseña de internet a una mas larga y solo con minusculas y numeros 
 con ese cambio resulto al enviar datos.
 
+<img width="1920" height="1008" alt="imagen1" src="https://github.com/user-attachments/assets/634f3f8f-8182-4513-914b-58559216b30c" />
+
 
 ```cpp
 // rellenar
