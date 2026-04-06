@@ -44,7 +44,15 @@
 + Electro-Smith
 
 ---
+## **Visual Studio Code**
+Carpeta
++ **.vscode:** cosas que necesita nuestro computador
++ **build** compilados (no tocar)
++ **.gitignore** no compartir
++ **nombredelarchivo.cpp** archivo que creamos 
++ **Cmakelist.txt**
 
+---
 ## **Mainframe**
 + Computadora alto rendimiento
 + Gran capacidad memoria y rendimiento

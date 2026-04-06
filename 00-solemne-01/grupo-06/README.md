@@ -7,7 +7,14 @@
 * Nicolás Elías Valdés Greve / https://github.com/arevalourra/dis9079-2026-1/tree/main/29-nicolasvaldesgreve
 
 ## Descripción del proyecto
+El proyecto que realizaremos consiste en la comunicación entre dos placas (Arduino Uno R4 Wifi - Raspberry Pi Pico 2W) conectadas a distintos computadores mediante internet (llamado "si"), utilizando Adafruit IO como intermediario. La idea principal de nuestro proyecto es enviar información desde un dispositivo físico y representarla en otro en tiempo real. 
 
+En este caso, los componentes que utilizamos son:
++ Potenciómetro conectado a Arduino Uno R4 Wifi, el cual envía valores a la nube.
++ 
+
+Utilizamos esta imagen como referencia para guiarnos a través del Raspberry Pi PICO 2W 
+![Identificación de pins Raspberry Pi Pico 2 W](./imagenes/pins-raspberry.jpeg) 
 ## Materiales usados en Solemne-01
 
 | Componente | Cantidad | Valor Unidad | Link |
