@@ -70,7 +70,7 @@ Como
 
 ---
 
-## Prueba sin potenciómetro
+## Prueba LED en sistema recibir
 
 ![Circuito con LED en Arduino](./imagenes/pruebaledsinpotenciometro.jpeg)
 
@@ -107,8 +107,8 @@ Como
 #define WIFI_PASS "mailo6192"
 
 //credenciales Adafruit IO
-#define IO_USERNAME  "userdeAdafruit"
-#define IO_KEY       "KeydeAdafruit"
+#define IO_USERNAME  "UserDeAdafruit"
+#define IO_KEY       "KeyDeAdafruit"
 
 //aquí va la variable con el nombre del feed
 AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
@@ -157,4 +157,5 @@ void loop() {
 
 Lista de enlaces, libros, clases, tutoriales, etc
 
-* <https://mkelectronica.com/aprende-a-utilizar-la-plataforma-adafruit-io-para-tus-dispositivos-iot-parte-1/>, en donde se explica cómo funciona la plataforma de Adafruit IO incluyendo imagenes para que sea más fácil de entender.
++ <https://io.adafruit.com/nicolasvgreve/overview>, en donde explica cómo utilizar Arduino IDE en la sección inferior llamada ``Quick Guides``.
++ <https://mkelectronica.com/aprende-a-utilizar-la-plataforma-adafruit-io-para-tus-dispositivos-iot-parte-1/>, en donde se explica cómo funciona la plataforma de Adafruit IO incluyendo imagenes para que sea más fácil de entender.
