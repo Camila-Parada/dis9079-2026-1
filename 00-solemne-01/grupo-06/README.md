@@ -2,30 +2,49 @@
 
 ## Integrantes
 
-* Renata De Los Ángeles Arévalo Urra / https://github.com/arevalourra/dis9079-2026-1/tree/main/06-arevalourra
-* Isidora Andrea Pérez Maulén / https://github.com/arevalourra/dis9079-2026-1/tree/main/21-isipm08
-* Nicolás Elías Valdés Greve / https://github.com/arevalourra/dis9079-2026-1/tree/main/29-nicolasvaldesgreve
+* Renata De Los Ángeles Arévalo Urra / <https://github.com/arevalourra/dis9079-2026-1/tree/main/06-arevalourra>
+* Isidora Andrea Pérez Maulén / <https://github.com/arevalourra/dis9079-2026-1/tree/main/21-isipm08>
+* Nicolás Elías Valdés Greve / <https://github.com/arevalourra/dis9079-2026-1/tree/main/29-nicolasvaldesgreve>
 
 ## Descripción del proyecto
 
 ## Sistema Enviar
 
-![titulo](./imagenes/armadosistemaenviar.jpeg)
+Primero iniciamos probando el conectar el Arduino UNO R4 WiFi a un potenciómetro y que éste mande información a Adafruit, por lo que conectamos la placa Arduino al potenciómetro mediante cables Dupont, teniendo las siguientes conexiones:
 
-![titulo](./imagenes/primerapruebapotenciometro.gif)
++ GND - Pata izquierda del potenciómetro (conexión hecha con cable de color negro)
++ A0 - Pata del medio del potenciómetro (conexión hecha con cable de color morado)
++ 5V - Para derecha del potenciómetro (conexión hecha con cable de color roja)
 
-![titulo](./imagenes/pruebabrilloledadafruitio.png)
+Luego de conectar el potenciómetro al Arduino, así se veía nuestra protoboard:
 
+![Arduino con potenciómetro](./imagenes/armadosistemaenviar.jpeg)
+
+Como ya teníamos la placa y el potenciómetro listos, solo nos faltaba lograr enviar la información del movimiento del potenciómetro al Adafruit IO, por lo que fuimos a Feeds y creamos un feed llamado ``brillo-led`` ya que en ese momento estabamos pensando en hacer que el movimiento del potenciómetro afecte el brillo de un LED. Luego de crear el feed, fuimos a crear una nueva Dashboard en donde presionamos en Add Block y generamos un block de ``Gauge``, el cual va de 0 a 100. A éste block le asignamos el feed ``brillo-led`` y cuando subimos el código en Arduino IDE logramos ver como éste se conectaba a Adafruit IO y nos mostraba el cambio de valor al mover el potenciómetro que estaba conectado a la placa Arduino.
+
+![Adafruit respondiendo a potenciómetro](./imagenes/primerapruebapotenciometro.gif)
+
+Luego, si presionábamos en el feed de ``brillo-led``, nos permitía ver un gráfico que representaba toda la información que le enviábamos desde el potenciómetro, lo cual se veía así:
+
+![Gráfico de información que recibió Adafruit](./imagenes/pruebabrilloledadafruitio.png)
 
 ## Sistema Recibir
 
-![titulo](./imagenes/armadosistemarecibir.jpeg)
+Como nuestra idea era poder controlar el brillo del LED de una placa a otra, decidimos que en la Raspberry iría el LED ya que en ya habíamos logrado conectar el potenciómetro al Arduino. Como no sabíamos como hacer conexiones con ésta placa y no entendímos los textos que habían en ella, tuvimos que buscar imagenes de referencia para poder reconocer los Pins de la placa y para qué sirve cada una, por lo que encontramos ésta imagen:
 
-![titulo](./imagenes/Raspberry-Pi-Pico-2-W-Pinout.webp)
+![Pins Raspberry Pi Pico 2 W](./imagenes/Raspberry-Pi-Pico-2-W-Pinout.webp)
 
-![titulo](./imagenes/instalación-raspberrypiboards.jpeg)
+Luego de tratar de entender cómo leer los pins y qué hace cada uno, ubicamos una resistencia de 220 y un LED rojo a nuestra protoboard junto a la placa Raspberry Pi Pico 2 W, lo cual terminó viendose así:
 
-![titulo](./imagenes/error-arduinoide.jpeg)
+![Raspberry con LED](./imagenes/armadosistemarecibir.jpeg)
+
+Cuando íbamos a correr el código en Arduino IDE nos dimos cuenta que para poder trabajar con una Raspberry Pi hay que instalar bibliotecas extra, por lo que instalamos la extensión de Raspberry Pi Boards.
+
+![Instalando bibliotecas para la placa Raspberry Pi Pico 2 W en Arduino IDE](./imagenes/instalación-raspberrypiboards.jpeg)
+
+Cuando por fin subimos el código, nos salió un error en donde se menciona un puerto serial y por lo que buscamos en internet esto suele pasar bastante con las placas Raspberry Pi, pero a pesar de eso seguimos intentando, y cuando nos dimos cuenta de que ya llevábamos horas en eso decidimos buscar ayuda en el Laboratorio de Interacción Digital (LID).
+
+![Error de puerto en Raspberry Pi Pico 2 W](./imagenes/error-arduinoide.jpeg)
 
 
 ## Aarón nos ayuda en el Lid
