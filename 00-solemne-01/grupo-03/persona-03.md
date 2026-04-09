@@ -36,12 +36,22 @@ y al terminar la instalación revise las anotaciones de mis compañeros de grupo
 
 ## sobre artista, diseñadora o producto que usa electrónica o computación inalámbricas
 
-Para esta bitácora quise investigar el trabajo de Rafael Lozano-Hemmer, porque me llamó la atención cómo mezcla el arte con la tecnología, especialmente con sistemas electrónicos y redes inalámbricas. Al principio pensé que iba a ser algo muy técnico, pero en realidad su enfoque va mucho más por el lado de la interacción con las personas, lo que lo hace más interesante.
+Para esta bitácora quise investigar el trabajo de Rafael Lozano-Hemmer, porque me llamó la atención cómo mezcla el arte con la tecnología, especialmente con sistemas electrónicos y redes inalámbricas.
 
-Lo que hace este artista es crear instalaciones donde el público participa directamente, y muchas veces esas obras funcionan gracias a sensores, cámaras, luces y conexiones a internet. Por ejemplo, en varias de sus obras usa dispositivos que captan señales del cuerpo, como el pulso o la presencia de una persona, y eso se transforma en algo visual o sonoro.
+Al principio pensé que iba a ser más técnico, pero su enfoque va por el lado de la interacción con las personas.
 
-También trabaja mucho con datos en tiempo real, lo que implica el uso de redes inalámbricas para enviar y recibir información constantemente. Eso se relaciona con lo que estamos viendo en clases, porque al final es similar a cómo un sensor envía datos a una plataforma en la nube, en vez de mostrar números, muestra luces y proyecciones.
+Lo que hace este artista es crear instalaciones donde el público participa directamente, y muchas veces esas obras funcionan gracias a sensores, cámaras, luces y conexiones a internet, conexiones como las que hacemos con
 
-Lo interesante de sus obras es que cambian dependiendo de quién las use o cuántas personas participen, y al final me quedo con esta idea de que no solo se usan redes inalámbricas o Arduino para proyectos técnicos, sino que también, visto desde una forma artística, se pueden usar para interactuar con las personas, tal y como lo hace con el diseño.
+- arduino
+
+- raspberry pi.
+
+Por ejemplo, en varias de sus obras usa dispositivos que captan señales del cuerpo, como el pulso o la presencia de una persona, y eso se transforma en algo visual o sonoro, algo tipo visualización de datos.
+
+También trabaja mucho con datos en tiempo real, lo que implica el uso de redes inalámbricas para enviar y recibir información constantemente del entorno.
+
+Mostrando luces, proyecciones o algo que tenga una estructura digital pensada de fondo, dependiendo de lo que conviva con el proyecto se muestra uno o otro resultado, haciendolo más interesante para el público. 
+
+Sus obras cambian dependiendo de quién las use o cuántas personas participen, y al final me quedo con esta idea de que no solo se usan redes inalámbricas o Arduino para proyectos técnicos, sino que también, visto desde una forma artística, se pueden usar para interactuar con las personas, tal y como se hace con el diseño.
 
 ![Foto Rafael Lozano](./imagenes/rafael.png)
