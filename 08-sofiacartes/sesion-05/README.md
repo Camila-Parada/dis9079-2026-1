@@ -170,6 +170,6 @@ Para usuarios que utilizan la plataforma de configuración sin código, la gesti
 
 **Prueba en clases**
 
-En un momento al conectarlo a A1 el botón que añadimos nos hacia la función de reset del botón del arduino, pero en la protoboard.
+En un momento al conectarlo a A0 el botón que añadimos nos hacia la función de reset del botón del arduino, pero en la protoboard.
 
 ![proceso1](./imagenes/proceso1.gif)
