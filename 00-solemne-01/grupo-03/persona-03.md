@@ -236,3 +236,13 @@ Mostrando luces, proyecciones o algo que tenga una estructura digital pensada de
 Sus obras cambian dependiendo de quién las use o cuántas personas participen, y al final me quedo con esta idea de que no solo se usan redes inalámbricas o Arduino para proyectos técnicos, sino que también, visto desde una forma artística, se pueden usar para interactuar con las personas, tal y como se hace con el diseño.
 
 ![Foto Rafael Lozano](./imagenes/rafael.png)
+
+**Bibliografía**
+
+- Ars Electronica. (s.f.). Rafael Lozano-Hemmer y arte interactivo. Recuperado de: https://ars.electronica.art
+
+- Museum of Modern Art (MoMA). (s.f.). Rafael Lozano-Hemmer. Recuperado de: https://www.moma.org
+
+- Rafael Lozano-Hemmer. (s.f.). Sitio oficial. Recuperado de: https://www.lozano-hemmer.com
+
+- Tate. (s.f.). Artistas: Rafael Lozano-Hemmer. Recuperado de: https://www.tate.org.uk
