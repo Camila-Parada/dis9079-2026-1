@@ -116,7 +116,125 @@ BOM Final
 
 ## Código usado con Adafruit IO
 
+Este código es el principal, y nos sirve para poder encender y apagar un LED que está conectado al Arduino que recibe información.
+
 ### Código para enviar
+```cpp
+#include <WiFiS3.h>
+#include "AdafruitIO_WiFi.h"
+
+// datos del wifi
+#define WIFI_SSID "si"
+#define WIFI_PASS "mailo6192"
+
+// datos del adafruit
+#define AIO_USERNAME "nicolasvgreve"
+#define AIO_KEY "KeyDeAdafruit"
+
+// nombre del feed y la key de éste
+AdafruitIO_WiFi io(AIO_USERNAME, AIO_KEY, WIFI_SSID, WIFI_PASS);
+AdafruitIO_Feed *ledFeed = io.feed("arevalourra-led");
+
+void setup() {
+  Serial.begin(115200);
+  delay(2000);
+
+  Serial.println("Conectando...");
+
+  io.connect();
+
+  while(io.status() < AIO_CONNECTED) {
+    Serial.print(".");
+    delay(500);
+  }
+
+  Serial.println("Conectado a Adafruit IO");
+}
+
+void loop() {
+  io.run();
+
+  Serial.println("1 (prendido)");
+  ledFeed->save(1);
+  delay(5000);
+
+  Serial.println("0 (apagar))");
+  ledFeed->save(0);
+  delay(5000);
+}
+```
+
+### Código para recibir
+
+```cpp
+#include <WiFiS3.h>
+#include "AdafruitIO_WiFi.h"
+
+// datos del wifi
+#define WIFI_SSID "si"
+#define WIFI_PASS "mailo6192"
+
+// datos del adafruit
+#define AIO_USERNAME "nicolasvgreve"
+#define AIO_KEY "KeyDeAdafruit"
+
+// este es el LED en la protoboard
+#define LED_PIN 8
+
+// se menciona el feed y el key de éste
+AdafruitIO_WiFi io(AIO_USERNAME, AIO_KEY, WIFI_SSID, WIFI_PASS);
+AdafruitIO_Feed *ledFeed = io.feed("arevalourra-led");
+
+
+void handleMessage(AdafruitIO_Data *data) {
+
+  int valor = data->toInt();
+
+  Serial.print("Recibido: ");
+  Serial.println(valor);
+
+  if(valor == 1) {
+    digitalWrite(LED_PIN, HIGH); // encender
+  } else {
+    digitalWrite(LED_PIN, LOW);  // apagar
+  }
+}
+
+void setup() {
+  Serial.begin(115200); // revisar si el monitor serial está en 115200 baud, y si no lo está cambiar para poder leer cuando se conecte a adafruit y los mensajes que llegan
+  delay(2000);
+
+  pinMode(LED_PIN, OUTPUT);
+
+  // parte el encendido
+  digitalWrite(LED_PIN, HIGH);
+
+  Serial.println("Conectando...");
+
+  io.connect();
+
+  ledFeed->onMessage(handleMessage);
+
+  while(io.status() < AIO_CONNECTED) {
+    Serial.print(".");
+    delay(500);
+  }
+
+  Serial.println("Conectado a Adafruit IO");
+
+  ledFeed->get();
+}
+
+void loop() {
+  io.run();
+}
+```
+
+---
+
+### Código para enviar
+
+Éste código lo conseguimos cuando estabamos intentando conseguir prender y apagar el LED de la protoboard, pero lo que logró fue prender y apagar el LED que está dentro del otro Arduino, por lo que decidimos dejarlo de igual manera ya que sirve y fue parte importante del proceso.
 
 ```cpp
 #include <WiFiS3.h>
