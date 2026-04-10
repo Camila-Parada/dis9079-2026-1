@@ -117,3 +117,29 @@ fuente: [donkeycar](https://github.com/autorope/donkeycar?tab=readme-ov-file)
 
 fuente: [donkeycarniubit](https://niubit.es/proyectos/97-open-source/106-donkey-car)
 
+- La página de [donkeycar](https://docs.donkeycar.com/) es muy completa porque nos ofrece el paso a paso sobre cómo construir nuestro propio vehículo tanto en ámbito de hardware como software
+
+- Incluyen una lista de cosas que necesitamos, igual es medio caro si
+
+![donkey3](./imagenes/donkey3.JPG)
+
+fuente: [docs.donkeycar](https://docs.donkeycar.com/)
+
+- Subiré documentación sobre cómo armar nuestro propio donkeycar y parte de su funcionamiento
+
+¿Qué se necesita para empezar?
+
+- Donkeycar está diseñado como el “Hola Mundo” de la conducción autónoma; es simple, pero a la vez flexible y potente. No se requiere ningún conocimiento previo específico, aunque ayuda tener nociones de:
+
+-  Python: No necesitas programar para usar Donkeycar. El archivo que editas para configurar tu auto, myconfig.py, es un archivo de Python. En la mayoría de los casos, solo tienes que descomentar las secciones que quieres modificar y editarlas. Puedes evitar errores comunes si entiendes cómo funcionan los comentarios y la indentación en Python
+
+-  Raspberry PI: La Raspberry Pi es el computador principal recomendado para un Donkeycar. Es útil haberla configurado y utilizado antes, pero no es obligatorio. La documentación de Donkeycar explica cómo instalar el software en Raspberry Pi OS, pero los detalles específicos —como instalar el sistema usando Raspberry Pi Imager o configurar la Raspberry Pi con raspi-config— se dejan a la documentación oficial de Raspberry Pi, que es bastante completa y de buena calidad.
+
+Se recomienda configurar tu Raspberry Pi usando esa documentación y luego experimentar un poco con ella
+
+**Hardware**
+
+
+
+**Software**
+- debemos seguir una serie de pasos, lo primero es setear nuestra configuración según nuestro sistema operativo, en mi caso sería Windows
