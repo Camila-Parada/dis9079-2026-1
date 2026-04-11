@@ -83,7 +83,9 @@ Software utilizado:
 -Instalar versión 4.3.4 (abril 2026) o superior.
 
 
-![Arduino](./imagenes/Libreriaarduino.png)
+![Arduino](./imagenes/Libreria arduino.png)
+
+<img width="445" height="386" alt="Libreria arduino" src="https://github.com/user-attachments/assets/d41cf0e5-0742-459a-81c9-512495ffe6f0" />
 
 
 ## Aprendizajes:
