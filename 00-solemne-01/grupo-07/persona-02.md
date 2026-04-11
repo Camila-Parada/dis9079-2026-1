@@ -11,7 +11,7 @@ Adafruit IO nos permite controlar dispositivos, sensores y monitorizar en IoT, s
 Tiene muchas bibliotecas para distintos lenguajes, como Arduino, Python, etc.
 En Adafruit IO, se pueden visualizar datos en tiempo real e  interactuar con ellos,se puede también encender y apagar las luces y hasta controlar ajustes de temperatura.
 
-Pude crear una cuenta súper fácil m, solo había que seguir los pasos de la página. Después de hacerme una cuenta me puse a revisar que cosas tenía y que podía hacer, tiene varios tutoriales en la misma página, así que entender como ocuparía no fue tan difícil como creí.
+Pude crear una cuenta súper fácil, solo había que seguir los pasos de la página. Después de hacerme una cuenta me puse a revisar que cosas tenía y que podía hacer, tiene varios tutoriales, así que entender como ocuparla no fue tan difícil como creí.
 
 https://mkelectronica.com/aprende-a-utilizar-la-plataforma-adafruit-io-para-tus-dispositivos-iot-parte-1/
 
@@ -61,7 +61,7 @@ Su obra es una mezcla de realidad aumentada y virtual,que busca la  creación de
 Es por esto que en sus obras fusiona diferentes medios, crea imágenes a partir de objetos 3D, o al revés transformando objetos 3D en pinturas.
 
 Una de sus obras más notables es *"Clouds"* (2011- presente), una serie de animaciones que mediante software crea 
-imágenes que simulan fenómenos naturales.
+imágenes que simulan fenómenos naturales.Además de ser también una alegoría a la Nube de datos.
 
 ![obra1](imagenes/cloud-1.jpeg)
 
@@ -70,9 +70,9 @@ imágenes que simulan fenómenos naturales.
 ![obra proyectada](imagenes/nube-acida-proyeccion.jpeg)
 
 Otra obra notable de Ludy es *"SubSurface Hell"*, para Bitforms Gallery.
-en esta instalación se distribuyen en el espacio imágenes personales de la vida cotidiana de Sara, fotos que venía recolectando desde el año 2000 y que tenía guardada en una carpeta con el nombre de *SubSurface Hell*, estás imágenes son reconocibles en forma, pero se desvinculan de sus experiencias y contextos originales,lo que les da un aire de incomodidad, ella en una entrevista ya había comentado que le inquieta el avance de la tecnología y el mundo que se ha creado debido a esta,supongo que a pesar de trabajar con la tecnología directamente también le preocupa hasta donde llegarán los avances de esta.Esto me recuerda a una de las primeras clases con Aaron, también mencionó que ya era suficiente con los avances que ya existen y que deberíamos parar.
+en esta instalación se distribuyen en el espacio imágenes personales de la vida cotidiana de Sara, fotos que venía recolectando desde el año 2000 y que tenía guardada en una carpeta con el nombre de *SubSurface Hell*, estás imágenes son reconocibles en forma, pero se desvinculan de sus experiencias y contextos originales,lo que les da un aire de incomodidad, ella en una entrevista ya había comentado que le inquieta el avance de la tecnología y el mundo que se ha creado debido a esta,supongo que a pesar de trabajar con la tecnología directamente, también le preocupa hasta donde llegarán los avances de la humanidad.Esto me recuerda a una de las primeras clases con Aaron, también mencionó que ya era suficiente con los avances que existen y que deberíamos parar.
 
-En la mayoría de sus obras Sara fusiona el uso de el software y el hardware para crear imágenes y animaciones,para simular fenómenos físicos, está artista logra transformar lo que se considera como inerte y frío en algo de aspecto orgánico, los componentes eléctricos pasan a ser parte de sus obras y no solo un medio para realizarlas.
+En la mayoría de sus obras Sara fusiona el uso de el software y el hardware para crear imágenes y animaciones,que simulan fenómenos físicos, está artista logra transformar lo que se considera como inerte y frío en algo de aspecto orgánico y flexible,en su obra los componentes eléctricos pasan a ser parte de las instalaciones y no solo un medio para realizarlas eso es algo que me gustó mucho de su trabajo, la intencionalidad de todo lo expuesto, también me agrado que aunque le gusta su trabajo sabe que algún día debido a la tecnología, podrían quedar sus obras obsoletas, pero es algo que no le molesta, me gusta la idea de poder  crear lo efímero, porque no todo tiene que durar para siempre.
 
 ## Fuentes:
 
