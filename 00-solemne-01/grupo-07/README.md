@@ -8,31 +8,28 @@
 
 ## Descripción del proyecto
 
-El Arduino se conecta a una red WiFi y luego establece comunicación con Adafruit IO usando el protocolo MQTT en Arduino Ide.
+El Arduino se conecta a una red Wi-Fi y establece comunicación con Adafruit IO mediante el protocolo MQTT en el Arduino IDE. Desde cualquier otro computador o celular, se accede al *dashboard* de Adafruit IO en el navegador y se presiona un botón *toggle*. Ese click viaja por internet hasta los servidores de Adafruit, los cuales lo reenvían al Arduino. Finalmente, la placa recibe el mensaje y enciende o apaga el LED.
 
-Desde cualquier otro computador o celular, entras al dashboard de Adafruit IO en el navegador y presionas un botón toggle. Ese click viaja por internet hasta los servidores de Adafruit, que se lo reenvían al Arduino. El Arduino recibe el mensaje y enciende o apaga el LED.
+Comenzamos utilizando el código de ejemplo que Aarón subió a GitHub para aprender cómo funcionaban las conexiones basadas en la nube. Al principio no funcionaba y, tras un tiempo investigando, descubrimos que las credenciales eran incorrectas: estábamos usando la contraseña personal del sitio en lugar de la AIO Key (una clave alfanumérica que proporciona Adafruit IO para la conexión).
 
-Partimos utilizando el código de ejemplo que subió Aaron a Github, para aprender como funcionaban las conexiones en base a una nube pero de primeras no funcionaba, y tras un rato investigando, dimos con que estabamos dando mal las credenciales que habia que cambiar del código, puntualmente la clave que estabamos poniendo,era la personal para ingresar al sitio, pero resulta que era la AIO Key, que es una clave alfanumérica que te da el Adafruit IO para poder conectarte a la nube.
-
-Luego de solucionar eso el código estaba bien, pero aún así no se conectaba, solo aparecía una serie de puntos infinitos
+Tras solucionar esto, el código era correcto, pero la conexión seguía fallando; solo aparecía una serie de puntos infinitos en el monitor serial.
 
 ![Puntos](./imagenes/puntos-suspensivos.png)
 
-no nos dimos cuenta, hasta que en clases Aaron actualizó los Arduinos que tenian ese error y se solucionó, resulta que al final de los puntos habia un mensaje de "Please upgrade the WiFiS3 firmware!" pero no alcanzaba a verse.
+No notamos el error hasta que, en clase, Aarón actualizó el firmware  de los Arduinos,resulta que al final de los puntos habia un mensaje que decía:
 
-Una vez actualizado el Arduino pudimos conectar bien con Adafruit IO y probamos con un ejercicio que nos dió Aaron, que consistía en conectarse a un feed en Adafruit IO el cual estaba conectado a una Dashboard con un contador,ese ejercicio si funcionó.
+>"Please upgrade the WiFiS3 firmware!"
+
+Una vez actualizados, logramos conectar con Adafruit IO y probamos con éxito un ejercicio de contador.
 
 ![funcionó!!](./imagenes/conectado-a-adafruit.png)
 
-Durante la clase del lunes 06, quisimos intentar lograr prender un led conectado a una protoboard, pero ningún código nos funcionó.
+Durante la clase del lunes 6, intentamos encender un LED conectado a una protoboard, pero ningún código funcionó. Ante esto, investigamos en blogs y GitHub sin éxito, por lo que decidimos acudir a Claude AI.
+Le proporcionamos el siguiente *prompt*:
 
-Luego de esos intentos fallidos de la clase pasada, seguíamos con las ganas de controlar el LED conectado al Arduino, mediante el dashboard de Adafruit IO, así que investigamos un poco en blogs, foros y github pero no logramos crear el código desde 0 así que acudimos a Claude AI con lo que queriamos hacer.
+>"Necesito generar un código para Arduino IDE que me permita controlar, a través de Adafruit IO, un Arduino conectado a otro computador. Este Arduino tendrá un LED que deseo encender y apagar desde los dashboards de Adafruit IO".
 
-le escribimos el siguiente prompt:
-
->Necesito generar un codigo para arduino ide que me permita controlar de otro computador a traves de adafruit io el arduino conectado a otro computador, este arduino tambien tendria conectado una luz led que me gustaria prender y apagar desde los dashboards de adafruit io.
-
-Creamos un feed en Adafruit IO con el nombre de led-control y un Dashboard vinculado a este mismo feed, por el que por medio de un toggle podríamos prender y apagar la luz del LED. Con esto conseguimos el código, lo probamos y si funcionaba, pero le pedimos ayuda con como hacer las conexiones de la protoboard al Arduino, luego de lograr las conexiones probamos el código y sí se pudo conectar a Adafruit IO, de otro dispositivo con acceso al dashboard pudimos controlar la luz LED prendiendola y apagandola.
+Creamos un feed llamado "led-control" y un dashboard vinculado. Con el código generado por la IA, realizamos las conexiones en la protoboard,con ayuda de Claude AI, y finalmente logramos controlar el LED de forma remota desde otros dispositivos.
 
 ## Conexiones
 
@@ -158,9 +155,9 @@ rellenar en el mismo orden que los integrantes del grupo
 
 ## Bibliografía
 
-* Adafruit IO <https://learn.adafruit.com/adafruit-io/arduino>
-* Adafruit IO overview <https://io.adafruit.com/vxlentiinaa/overview>
-* Arduino libraries Adafruit IO <https://docs.arduino.cc/libraries/adafruit-io-arduino/>
-* Github Adafruit IO <https://github.com/adafruit/Adafruit_IO_Arduino>
-* Adafruit IO basics color <https://learn.adafruit.com/adafruit-io-basics-color>
-* Arduino cheat sheet <http://docs.arduino.cc/tutorials/uno-r4-wifi/cheat-sheet/>
+Adafruit IO <https://learn.adafruit.com/adafruit-io/arduino>
+Adafruit IO overview <https://io.adafruit.com/vxlentiinaa/overview>
+Arduino libraries Adafruit IO <https://docs.arduino.cc/libraries/adafruit-io-arduino/>
+Github Adafruit IO <https://github.com/adafruit/Adafruit_IO_Arduino>
+Adafruit IO basics color <https://learn.adafruit.com/adafruit-io-basics-color>
+Arduino cheat sheet <http://docs.arduino.cc/tutorials/uno-r4-wifi/cheat-sheet/?utm_source=chatgpt.com>
