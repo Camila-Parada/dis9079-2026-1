@@ -487,7 +487,7 @@ Aprendimos como grupo a ser constantes y no rendirnos hasta lograr el objetivo d
 
 [sofiacartes.md](./persona-01.md)
 
-[persona-02.md](./persona-02.md)
+[Monserrat-Paredes.md](./persona-02.md)
 
 [vxlentiinaa.md](./persona-03.md)
 
