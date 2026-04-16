@@ -35,7 +35,7 @@ También vimos que existen placas súper específicas, sobre todo para audio y "
 * **Meet Daisy:** Un microcontrolador gigante para procesar sonido.
 * **BeagleBoard:** Que hizo una alianza con una gente de arte en Inglaterra.
 
-Audio y experimentación (Lo que profundicé)
+### Audio y experimentación (Lo que profundicé)
 
 Además de lo básico, estuve mirando e informandome con lo siqguiente:
 
