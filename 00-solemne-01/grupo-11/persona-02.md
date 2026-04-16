@@ -1,6 +1,6 @@
 # persona-02
 
-investigaciones individuales Benjamin Alvarez
+Investigaciones individuales Benjamin Alvarez
 
 ## Sobre adafruit i/o
 
