@@ -1,12 +1,12 @@
 # grupo-11
 
-## integrantes
+## Integrantes
 
 * Anays Valentina Cornejo Candia
   
 * Benjamín Alonso Álvarez Pavez
 
-## descripción del proyecto
+## Descripción del proyecto
 
 ## Introducción
 
@@ -15,7 +15,6 @@ Al inicio del proyecto, como dupla no sabíamos muy bien qué hacer, estábamos 
 En la última clase, trabajando al unísono con Aaron, fuimos entendiendo mejor el entorno de desarrollo y las posibilidades del Arduino UNO R4 WiFi junto a Adafruit IO.
 
 Dado que todavía no manejamos bien las herramientas, decidimos comenzar con algo simple que nos permitiera comprender lo básico de comunicación entre dispositivos antes de intentar algo más complejo.
-
 
 ## Investigación y elección del proyecto
 
@@ -33,11 +32,11 @@ Se utilizó un Arduino UNO R4 WiFi conectado a una protoboard con la siguiente c
 
 - Un LED externo conectado entre positivo y negativo
 
-Posteriormente, el LED externo fue reemplazado por el LED integrado de la placa (LED_BUILTIN). Este cambio se realizó debido a que el LED externo no respondía a las instrucciones, por lo que se optó por utilizar el LED integrado.
-
 ![circuito](./imagenes/ilustracion.jpg)
 
-## materiales usados en solemne-01
+Posteriormente, el LED externo fue reemplazado por el LED integrado de la placa (LED_BUILTIN). Este cambio se realizó debido a que el LED externo no respondía a las instrucciones, por lo que se optó por utilizar el LED integrado.
+
+## Materiales usados en solemne-01
 
 | Componentes Resultado Final | Precio | Cantidad | Link |
 | :--------------------------- | ------ | -------- | :---- |
@@ -49,8 +48,6 @@ Posteriormente, el LED externo fue reemplazado por el LED integrado de la placa 
 | Protoboard          | $1.500 | x1       | <https://afel.cl/products/mini-protoboard-400-puntos> |
 | Cable Dupont (pack 40 uni.) | $2.900 | x4       | <https://mcielectronics.cl/shop/product/cable-dupont> |
 | Led                 | $70    | x1       | <https://afel.cl/products/diodo-led-5mm-ultrabrillante-blanco> |
-
-
 
 ## Códigos y funcionamiento
 
@@ -135,7 +132,7 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 
 Durante el desarrollo surgió un problema, el sistema recibía los datos correctamente, pero el LED no respondía a las instrucciones.
 
-#### Primer intento usando LED externo, donde se recibían datos pero el LED no respondía.
+#### Primer intento usando LED externo, donde se recibían datos pero el LED no respondía
 
 ![intento fallido](./imagenes/on-off-fallo.gif)
 
@@ -157,11 +154,11 @@ Se trabajó con dos comandos principales:
 
 Los valores enviados desde el dashboard se registraban en un feed, el cual permitía visualizar el estado del sistema en tiempo real.
 
-#### Imagen del dashboard de Adafruit IO con bloques ON/OFF.
+#### Imagen del dashboard de Adafruit IO con bloques ON/OFF
 
 ![dashboard on off](./imagenes/dashboard-on-off.jpg)
 
-#### Registro en Adafruit IO del encendido y apagado del LED.
+#### Registro en Adafruit IO del encendido y apagado del LED
 
 ![feed](./imagenes/led.png)
 
@@ -171,19 +168,19 @@ Además del funcionamiento principal del LED, hicimos experimentaciones con otra
 
 Primero, probamos el envío de mensajes desde el dashboard, los cuales se visualizan tanto en el monitor serial como en el feed de Adafruit IO.
 
-#### Prueba de envío de mensajes desde Adafruit IO al monitor serial.
+#### Prueba de envío de mensajes desde Adafruit IO al monitor serial
 
-falta el video nuevo
- 
+[![mensajes](https://img.youtube.com/vi/bQc3ydI18RI/0.jpg)](https://www.youtube.com/watch?v=bQc3ydI18RI)
+
 También utilizamos un slider que permite enviar valores numéricos y observar su comportamiento en un gráfico dentro de Adafruit IO.
 
-#### Visualización de valores enviados desde el slider en el gráfico de Adafruit IO.
+#### Visualización de valores enviados desde el slider en el gráfico de Adafruit IO
 
 ![grafico slider](./imagenes/grafico-feed-slide.png)
 
 #### Dashboard completo
 
-falta la foto nueva
+![dashboard completo](./imagenes/dashboard-completo.jpg)
 
 Estas pruebas corresponden a exploraciones realizadas durante el proceso de aprendizaje y no forman parte del sistema final.
 
@@ -191,7 +188,7 @@ Estas pruebas corresponden a exploraciones realizadas durante el proceso de apre
 
 Este proyecto nos ayudó a entender cómo se comunica un dispositivo físico con una plataforma en la nube. A partir de algo sencillo, aprendimos las bases para hacer proyectos más complejos en el futuro. También vimos la importancia de ordenar bien el código y la documentación, y de enfocarnos en lo principal del programa. Poco a poco vamos entendiendo mejor cómo funciona el Arduino y Adafruit IO, y las posibilidades que tienen. Estamos muy motivados y emocionados de realizar las nuevas ideas que tenemos en mente.
 
-## investigaciones individuales
+## Investigaciones individuales
 
 [persona-01.md](./persona-01.md) Anays Cornejo
 
