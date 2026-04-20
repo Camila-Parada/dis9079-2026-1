@@ -273,5 +273,11 @@ void loop() {
 }
 ```
 
-![feed](./imagenes/feedpote.png)
+![feed](./imagenes/pote.png)
+
+Después conectamos un LDR remplazando el potencionmetro.
+
+![feed](./imagenes/ldr2.png)
+![feed](./imagenes/ldr1.png)
+![feed](./imagenes/ldr.HEIC)
 
